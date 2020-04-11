@@ -13,11 +13,13 @@ class Node {
   }
 
   printContent() {
+    console.log("-----------------------------------------");
     console.log("Printing contents of current Node");
     console.log(`Prompt: ${this.prompt}`);
     console.log(`Title: ${this.title}`);
     console.log(`Scene: ${this.scene}`);
     console.log(`Children: ${this.numChildren}`);
+    console.log("-----------------------------------------");
   }
 
   printChildren() {
@@ -44,3 +46,5 @@ rootNode.addNode(
   "Episode 1C",
   "Our character completed a whole bunch of chores today."
 );
+
+rootNode.printContent();
