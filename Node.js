@@ -8,7 +8,7 @@ class Node {
   }
 
   addNode(prompt, title, scene) {
-    this.children.push(new Node(title, prompt, scene));
+    this.children.push(new Node(prompt, title, scene));
     this.numChildren++;
   }
 
