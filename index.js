@@ -19,10 +19,10 @@ class Node {
     console.log(`Title: ${this.title}`);
     console.log(`Scene: ${this.scene}`);
     console.log(`Children: ${this.numChildren}`);
-    console.log("-----------------------------------------");
   }
 
   printChildren() {
+    console.log("-----------------------------------------");
     this.children.forEach((i, j) => {
       console.log(`${j}: ${i.prompt}`);
     });
@@ -48,3 +48,4 @@ rootNode.addNode(
 );
 
 rootNode.printContent();
+rootNode.printChildren();
