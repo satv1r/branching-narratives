@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/356Sandhu/branching-narratives#readme",
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   }
 }
